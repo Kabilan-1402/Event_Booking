@@ -1,0 +1,42 @@
+name: booking_event
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  curved_navigation_bar:
+  firebase_core:
+  firebase_auth:
+  google_sign_in:
+  cloud_firestore:
+  image_picker:
+  firebase_storage:
+  random_string:
+  firebase_app_check:
+  intl:
+  flutter_stripe:
+  http:
+  shared_preferences:
+  geolocator:
+  geocoding:
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/
+    - C:\Users\kabil\Desktop\booking_event\images\onboarding.png

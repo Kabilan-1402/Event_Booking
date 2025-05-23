@@ -1,0 +1,24 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "bookingevent-8e6f7",
+          "appId": "1:402370912904:android:b0070d63f55b768005f53d",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "bookingevent-8e6f7",
+          "configurations": {
+            "android": "1:402370912904:android:b0070d63f55b768005f53d"
+          }
+        }
+      }
+    }
+  },
+  "storage": {
+    "rules": "storage.rules"
+  }
+}
